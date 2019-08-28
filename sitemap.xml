@@ -4,14 +4,42 @@
   
   <url>
     <loc>https://dream-plus-posts.netlify.com/categories/</loc>
+    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dream-plus-posts.netlify.com/categories/category1/</loc>
+    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://dream-plus-posts.netlify.com/</loc>
+    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dream-plus-posts.netlify.com/posts/</loc>
+    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dream-plus-posts.netlify.com/tags/tag123/</loc>
+    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://dream-plus-posts.netlify.com/tags/</loc>
+    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dream-plus-posts.netlify.com/tags/test/</loc>
+    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dream-plus-posts.netlify.com/posts/example/</loc>
+    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
   </url>
   
 </urlset>

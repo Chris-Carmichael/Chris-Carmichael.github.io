@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chris Carmichael&#39;s Blog</title>
-    <link>https://dream-plus-posts.netlify.com/</link>
-    <description>Recent content on Chris Carmichael&#39;s Blog</description>
+    <title>category1 on Chris Carmichael&#39;s Blog</title>
+    <link>https://dream-plus-posts.netlify.com/categories/category1/</link>
+    <description>Recent content in category1 on Chris Carmichael&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 28 Aug 2019 11:17:36 -0600</lastBuildDate>
     
-	<atom:link href="https://dream-plus-posts.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dream-plus-posts.netlify.com/categories/category1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
