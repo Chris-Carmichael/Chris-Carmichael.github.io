@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Chris Carmichael&#39;s Blog</title>
-    <link>https://dream-plus-posts.netlify.com/tags/</link>
+    <link>https://chris-carmichael.github.io/tags/</link>
     <description>Recent content in Tags on Chris Carmichael&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 28 Aug 2019 11:17:36 -0600</lastBuildDate>
     
-	<atom:link href="https://dream-plus-posts.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chris-carmichael.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>tag123</title>
-      <link>https://dream-plus-posts.netlify.com/tags/tag123/</link>
+      <link>https://chris-carmichael.github.io/tags/tag123/</link>
       <pubDate>Wed, 28 Aug 2019 11:17:36 -0600</pubDate>
       
-      <guid>https://dream-plus-posts.netlify.com/tags/tag123/</guid>
+      <guid>https://chris-carmichael.github.io/tags/tag123/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
-      <link>https://dream-plus-posts.netlify.com/tags/test/</link>
+      <link>https://chris-carmichael.github.io/tags/test/</link>
       <pubDate>Wed, 28 Aug 2019 11:17:36 -0600</pubDate>
       
-      <guid>https://dream-plus-posts.netlify.com/tags/test/</guid>
+      <guid>https://chris-carmichael.github.io/tags/test/</guid>
       <description></description>
     </item>
     

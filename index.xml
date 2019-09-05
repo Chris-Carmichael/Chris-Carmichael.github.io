@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chris Carmichael&#39;s Blog</title>
-    <link>https://dream-plus-posts.netlify.com/</link>
+    <link>https://chris-carmichael.github.io/</link>
     <description>Recent content on Chris Carmichael&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 28 Aug 2019 11:17:36 -0600</lastBuildDate>
     
-	<atom:link href="https://dream-plus-posts.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chris-carmichael.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>This is a test</title>
-      <link>https://dream-plus-posts.netlify.com/posts/example/</link>
+      <link>https://chris-carmichael.github.io/posts/example/</link>
       <pubDate>Wed, 28 Aug 2019 11:17:36 -0600</pubDate>
       
-      <guid>https://dream-plus-posts.netlify.com/posts/example/</guid>
+      <guid>https://chris-carmichael.github.io/posts/example/</guid>
       <description> Test Hugo Page Let&amp;rsquo;s look at syntax highlighting.
 1  Write-Host &amp;#34;boo1&amp;#34;  </description>
     </item>

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Chris Carmichael&#39;s Blog</title>
-    <link>https://dream-plus-posts.netlify.com/categories/</link>
+    <link>https://chris-carmichael.github.io/categories/</link>
     <description>Recent content in Categories on Chris Carmichael&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 28 Aug 2019 11:17:36 -0600</lastBuildDate>
     
-	<atom:link href="https://dream-plus-posts.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chris-carmichael.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>category1</title>
-      <link>https://dream-plus-posts.netlify.com/categories/category1/</link>
+      <link>https://chris-carmichael.github.io/categories/category1/</link>
       <pubDate>Wed, 28 Aug 2019 11:17:36 -0600</pubDate>
       
-      <guid>https://dream-plus-posts.netlify.com/categories/category1/</guid>
+      <guid>https://chris-carmichael.github.io/categories/category1/</guid>
       <description></description>
     </item>
     
