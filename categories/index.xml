@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Chris Carmichael&#39;s Blog</title>
+    <title>Categories on Chris Carmichael</title>
     <link>https://chris-carmichael.github.io/categories/</link>
-    <description>Recent content in Categories on Chris Carmichael&#39;s Blog</description>
+    <description>Recent content in Categories on Chris Carmichael</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 28 Aug 2019 11:17:36 -0600</lastBuildDate>
+    <language>en-us</language>
     
 	<atom:link href="https://chris-carmichael.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>category1</title>
-      <link>https://chris-carmichael.github.io/categories/category1/</link>
-      <pubDate>Wed, 28 Aug 2019 11:17:36 -0600</pubDate>
-      
-      <guid>https://chris-carmichael.github.io/categories/category1/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

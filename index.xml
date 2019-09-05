@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chris Carmichael&#39;s Blog</title>
+    <title>Chris Carmichael</title>
     <link>https://chris-carmichael.github.io/</link>
-    <description>Recent content on Chris Carmichael&#39;s Blog</description>
+    <description>Recent content on Chris Carmichael</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 28 Aug 2019 11:17:36 -0600</lastBuildDate>
+    <language>en-us</language>
     
 	<atom:link href="https://chris-carmichael.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>This is a test</title>
-      <link>https://chris-carmichael.github.io/posts/example/</link>
-      <pubDate>Wed, 28 Aug 2019 11:17:36 -0600</pubDate>
+      <title></title>
+      <link>https://chris-carmichael.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chris-carmichael.github.io/posts/example/</guid>
-      <description> Test Hugo Page Let&amp;rsquo;s look at syntax highlighting.
-1  Write-Host &amp;#34;boo1&amp;#34;  </description>
+      <guid>https://chris-carmichael.github.io/contact/</guid>
+      <description> boo </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://chris-carmichael.github.io/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chris-carmichael.github.io/faq/</guid>
+      <description> boo </description>
     </item>
     
   </channel>

@@ -3,43 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://chris-carmichael.github.io/categories/</loc>
-    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
+    <loc>https://chris-carmichael.github.io/contact/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://chris-carmichael.github.io/categories/category1/</loc>
-    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
+    <loc>https://chris-carmichael.github.io/faq/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chris-carmichael.github.io/categories/</loc>
   </url>
   
   <url>
     <loc>https://chris-carmichael.github.io/</loc>
-    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chris-carmichael.github.io/posts/</loc>
-    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chris-carmichael.github.io/tags/tag123/</loc>
-    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://chris-carmichael.github.io/tags/</loc>
-    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chris-carmichael.github.io/tags/test/</loc>
-    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chris-carmichael.github.io/posts/example/</loc>
-    <lastmod>2019-08-28T11:17:36-06:00</lastmod>
   </url>
   
 </urlset>
