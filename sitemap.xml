@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chris-carmichael.github.io/categories/blogging/</loc>
+    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chris-carmichael.github.io/blog/2019/09/05/blogging-with-hugo/</loc>
+    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chris-carmichael.github.io/blog/</loc>
+    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chris-carmichael.github.io/categories/</loc>
+    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chris-carmichael.github.io/</loc>
+    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chris-carmichael.github.io/tags/github/</loc>
+    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chris-carmichael.github.io/tags/github-pages/</loc>
+    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chris-carmichael.github.io/tags/hugo/</loc>
+    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chris-carmichael.github.io/tags/markdown/</loc>
+    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chris-carmichael.github.io/tags/</loc>
+    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chris-carmichael.github.io/contact/</loc>
     <priority>0</priority>
   </url>
@@ -10,18 +60,6 @@
   <url>
     <loc>https://chris-carmichael.github.io/faq/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chris-carmichael.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chris-carmichael.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chris-carmichael.github.io/tags/</loc>
   </url>
   
 </urlset>

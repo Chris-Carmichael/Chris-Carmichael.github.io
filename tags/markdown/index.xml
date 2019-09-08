@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chris Carmichael</title>
-    <link>https://chris-carmichael.github.io/</link>
-    <description>Recent content on Chris Carmichael</description>
+    <title>markdown on Chris Carmichael</title>
+    <link>https://chris-carmichael.github.io/tags/markdown/</link>
+    <description>Recent content in markdown on Chris Carmichael</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Sep 2019 07:28:38 -0600</lastBuildDate>
     
-	<atom:link href="https://chris-carmichael.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://chris-carmichael.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,24 +19,6 @@
       <guid>https://chris-carmichael.github.io/blog/2019/09/05/blogging-with-hugo/</guid>
       <description>Time to Blog I&amp;rsquo;ve been into computers for over 30 years, since I was a teenager taking apart a Tandy 1000 EX. Yikes my mom was so mad. She threatened to take a broom to my good friend Jason and I if we didn&amp;rsquo;t have it put back together by the morning. We succeeded, and I&amp;rsquo;ve been addicted to technology ever since.
 Professionaly, I&amp;rsquo;ve got ~20 years of experience. I recently had an opportunity to land an evangelist job talking about kubernetes, but the hiring manager couldn&amp;rsquo;t find me online.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://chris-carmichael.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chris-carmichael.github.io/contact/</guid>
-      <description> boo </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://chris-carmichael.github.io/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chris-carmichael.github.io/faq/</guid>
-      <description> boo </description>
     </item>
     
   </channel>
