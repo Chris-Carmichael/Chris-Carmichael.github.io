@@ -200,7 +200,10 @@
 
 <li><p>Add <a href="https://help.github.com/en/articles/setting-up-an-apex-domain">Github DNS ANAME records</a> to <strong>www.chris-carmichael.dev</strong> DNS zone.</p></li>
 
-<li><p>Plug in custom URL <strong>www.chris-carmichael</strong> on the github.io repo settings.  <a href="https://github.blog/2018-05-01-github-pages-custom-domains-https/">Github partnered with LetsEncrypt in 2018</a> to automate the certificate management.  Really slick.</p>
+<li><p>Plug in custom URL <strong>www.chris-carmichael</strong> on the github.io repo settings.  <a href="https://github.blog/2018-05-01-github-pages-custom-domains-https/">Github partnered with LetsEncrypt in 2018</a> to automate the certificate management.  Really slick.</p></li>
+</ul>
+
+<p>Time for configuration:</p>
 
 <pre><code class="language-powershell"># install hugo
 choco install hugo -y
@@ -217,8 +220,7 @@ cp -Recurse .\blog\* .\repos\blog\
 # Check to make sure an empty page is up
 hugo server -D
 
-</code></pre></li>
-</ul>
+</code></pre>
 
 <p>Ok, now you should be able to enter <a href="http://localhost:1313">http://localhost:1313</a> on your browser of choice.  It&rsquo;s not very pretty though, is it?  Next I looked into <a href="https://themes.gohugo.io/">Hugo Themes</a>, did some research, played with a handful and settled on <a href="https://themes.gohugo.io/hugo-universal-theme/">Hugo Universal Theme</a>.</p>
 
