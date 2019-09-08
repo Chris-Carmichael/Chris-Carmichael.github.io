@@ -264,7 +264,8 @@ function Update-Blog {
     Push-Location
     cd ~/repos/blogging/blog
 
-    # update blog
+    # clear public folder, generate &amp; update blog
+    rm -Recurse C:\Users\carmi\repos\blogging\blog\public\ -Force
     hugo
     cp -Recurse .\public\* ..\Chris-Carmichael.github.io\ -Force
     cd C:\Users\carmi\repos\blogging\Chris-Carmichael.github.io
