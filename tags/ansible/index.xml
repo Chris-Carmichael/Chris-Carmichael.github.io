@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ansible on Chris Carmichael</title>
+    <link>https://www.chris-carmichael.dev/tags/ansible/</link>
+    <description>Recent content in ansible on Chris Carmichael</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Sep 2019 08:43:55 -0600</lastBuildDate>
+    
+	<atom:link href="https://www.chris-carmichael.dev/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AnsibleFest 2019 Thoughts</title>
+      <link>https://www.chris-carmichael.dev/blog/2019/09/27/ansiblefest-2019-thoughts/</link>
+      <pubDate>Fri, 27 Sep 2019 08:43:55 -0600</pubDate>
+      
+      <guid>https://www.chris-carmichael.dev/blog/2019/09/27/ansiblefest-2019-thoughts/</guid>
+      <description>AnsibleFest 2019 Thoughts I attended the Ansible conference again this year, and it didn&amp;rsquo;t disappoint. Almost every session I sat in showcased deep technical content presented by seasoned engineers. Many of them are folks in the field without any corporate sponsorship or agenda. Just techies solving difficult problems using modern automation tooling, which is exactly what I look for in a conference.
+Here are the most interesting topics I took from the conference.</description>
+    </item>
+    
+  </channel>
+</rss>

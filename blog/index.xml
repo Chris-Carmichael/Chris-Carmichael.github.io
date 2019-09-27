@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Chris Carmichael</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2019 07:28:38 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2019 08:43:55 -0600</lastBuildDate>
     
 	<atom:link href="https://www.chris-carmichael.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AnsibleFest 2019 Thoughts</title>
+      <link>https://www.chris-carmichael.dev/blog/2019/09/27/ansiblefest-2019-thoughts/</link>
+      <pubDate>Fri, 27 Sep 2019 08:43:55 -0600</pubDate>
+      
+      <guid>https://www.chris-carmichael.dev/blog/2019/09/27/ansiblefest-2019-thoughts/</guid>
+      <description>AnsibleFest 2019 Thoughts I attended the Ansible conference again this year, and it didn&amp;rsquo;t disappoint. Almost every session I sat in showcased deep technical content presented by seasoned engineers. Many of them are folks in the field without any corporate sponsorship or agenda. Just techies solving difficult problems using modern automation tooling, which is exactly what I look for in a conference.
+Here are the most interesting topics I took from the conference.</description>
+    </item>
     
     <item>
       <title>Blogging With Hugo</title>
@@ -18,7 +28,7 @@
       
       <guid>https://www.chris-carmichael.dev/blog/2019/09/05/blogging-with-hugo/</guid>
       <description>Time to Blog I&amp;rsquo;ve been into computers for over 30 years, since I was a teenager taking apart a Tandy 1000 EX. Yikes my mom was so mad. She threatened to take a broom to my good friend Jason and I if we didn&amp;rsquo;t have it put back together by the morning. We succeeded, and I&amp;rsquo;ve been addicted to technology ever since.
-Professionaly, I&amp;rsquo;ve got ~20 years of experience. I recently had an opportunity to land an evangelist job talking about kubernetes, but the hiring manager couldn&amp;rsquo;t find me online.</description>
+Professionally, I&amp;rsquo;ve got ~20 years of experience. I recently had an opportunity to land an evangelist job talking about kubernetes, but the hiring manager couldn&amp;rsquo;t find me online.</description>
     </item>
     
   </channel>

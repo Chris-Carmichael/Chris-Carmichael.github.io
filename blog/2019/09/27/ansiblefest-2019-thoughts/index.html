@@ -6,7 +6,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>github</title>
+  <title>AnsibleFest 2019 Thoughts</title>
   <meta name="author" content="" />
 
   
@@ -14,7 +14,7 @@
   
 
   
-  <meta name="description" content="My little corner of the IT world.">	
+  <meta name="description" content="AnsibleFest 2019 Highlights, Thoughts, and Shout Outs">
   
 
   <meta name="generator" content="Hugo 0.57.2" />
@@ -58,14 +58,14 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@">
-  <meta name="twitter:title" content="github">
-  <meta name="twitter:image" content="https://www.chris-carmichael.dev/">
-  <meta name="twitter:description" content="My little corner of the IT world.">
+  <meta name="twitter:title" content="AnsibleFest 2019 Thoughts">
+  <meta name="twitter:image" content="https://www.chris-carmichael.dev/img/banners/ansiblefest-2019-badge.jpg">
+  <meta name="twitter:description" content="AnsibleFest 2019 Highlights, Thoughts, and Shout Outs">
 
   
-  <meta property="og:title" content="github" />
+  <meta property="og:title" content="AnsibleFest 2019 Thoughts" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.chris-carmichael.dev/tags/github//" />
+  <meta property="og:url" content="https://www.chris-carmichael.dev/blog/2019/09/27/ansiblefest-2019-thoughts//" />
   <meta property="og:image" content="img/logo.png" />
 
 </head>
@@ -84,9 +84,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="https://www.chris-carmichael.dev/">
-                    <img src="https://www.chris-carmichael.dev/img/logo.png" alt="github logo" class="hidden-xs hidden-sm">
-                    <img src="https://www.chris-carmichael.dev/img/logo-small.png" alt="github logo" class="visible-xs visible-sm">
-                    <span class="sr-only">github - go to homepage</span>
+                    <img src="https://www.chris-carmichael.dev/img/logo.png" alt="AnsibleFest 2019 Thoughts logo" class="hidden-xs hidden-sm">
+                    <img src="https://www.chris-carmichael.dev/img/logo-small.png" alt="AnsibleFest 2019 Thoughts logo" class="visible-xs visible-sm">
+                    <span class="sr-only">AnsibleFest 2019 Thoughts - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -150,7 +150,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>github</h1>
+                <h1>AnsibleFest 2019 Thoughts</h1>
             </div>
         </div>
     </div>
@@ -159,58 +159,108 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        <p class="text-muted text-uppercase mb-small text-right">September 27, 2019</p>
+
+                        <div id="post-content">
+                          
+
+<h2 id="ansiblefest-2019-thoughts">AnsibleFest 2019 Thoughts</h2>
+
+<p>I attended the Ansible conference again this year, and it didn&rsquo;t disappoint.  Almost every session I sat in showcased deep technical content presented by seasoned engineers.  Many of them are folks in the field without any corporate sponsorship or agenda.  Just techies solving difficult problems using modern automation tooling, which is exactly what I look for in a conference.</p>
+
+<p>Here are the most interesting topics I took from the conference.  Some of these I&rsquo;ll deploy in my lab and kick the tires on.  Some, like collections, need to be addressed by every Ansible shop on the planet.</p>
+
+<h3 id="ansible-collections">Ansible Collections</h3>
+
+<p>There was a really good talk done by <a href="https://steampunk.si">XLAB SteamPunk</a> around the design changes and move to Ansible collections.  Ansible 2.9 will be a big, important shift that is sorely needed.</p>
+
+<p>Ultimately this will result in companies like Google moving their <a href="https://docs.ansible.com/ansible/latest/modules/list_of_cloud_modules.html#google">GCP platform modules</a> out of <a href="https://github.com/ansible/ansible">ansible/ansible</a>, which will enable faster iteration on the ever evolving cloud.  It will also make issue tracking easier by removing the need to query tags to find issues pertaining to specific modules.</p>
+
+<p>For smaller companies, it will let them move at their own pace, and own the solution more completely.  It&rsquo;s a very good thing, in my opinion.</p>
+
+<h3 id="geerlingguy-talk">GeerlingGuy Talk</h3>
+
+<p><a href="https://www.jeffgeerling.com/">Jeff Geerling (geerlinguy)</a> did a talk on how to select a good community role for whatever project you might be working on.  There&rsquo;s no need to reinvent the wheel by writing roles for well known software by hand, and the example he used was a recent request he received to deploy Zabbix for a team he supports.  It was reassuring to see that he selected the <a href="https://github.com/dj-wasabi/ansible-zabbix-server">exact role</a> we chose at my last job.  We used Werner Dijkerman&rsquo;s excellent Zabbix roles through deployment and several upgrades.</p>
+
+<p>I did pick up some new tips, but overall it was validation that we were making good decisions and generally going down the right path.  It&rsquo;s always entertaining to see Jeff speak, so that was definitely a highlight for me.</p>
+
+<h3 id="awx-angry-potato-logo">AWX Angry Potato Logo</h3>
+
+<p>I sat in a fascinating talk about automating network infrastructure for the NYC Subway system.  The <a href="https://www.linkedin.com/in/theloganbest/">speaker</a> is a legit ninja and gave me some great ideas on extra tool-chain components and stack design in general.  I plan to take a close look at <a href="https://stackstorm.com/">StackStorm</a> and <a href="https://netbox.readthedocs.io/en/stable/">Netbox</a>.</p>
+
+<p>In one of his slides, I got to see the new AWX logo for the first time.  If you&rsquo;ve implemented AWX (open-source Tower), you&rsquo;ve seen the logo with wings coming out from the side.  It&rsquo;s pretty bad:</p>
+
+<p><img src="/images/awx-logo-old.jpg" alt="old logo" /></p>
+
+<p>It was the butt of many jokes when my last team implemented it, and one of the first things we changed, so I was happy to see a fresh new logo this year.  Behold, the angry potato!</p>
+
+<p><img src="/images/angrypotato.png" alt="angry potato" /></p>
+
+<h3 id="ansible-operators-for-kubernetes">Ansible Operators for Kubernetes</h3>
+
+<p>This was really cool.  Basically, operators allow Ansible to automate cluster operations based on k8s events.  The example the presenter used is setting up an egress for an app a developer deployed to a cluster.  The possibilities are endless, and right up my alley in regards to enabling teams to solve problems independently (self-service).</p>
+
+<p>During the Q&amp;A, I asked if the vision of operators was to give a GitOps experience to managing kubernetes with Ansible, and the presenter said it wasn&rsquo;t a deliberate goal, but there are people trying to accomplish this already.  It is still early days, and something I&rsquo;ll dig into to see how feasible it is.  I like the idea of using native Ansible tooling instead of stitching together different tools.</p>
+
+<p>With that said, I prefer the GitOps pattern to avoid logging in systems and creating unknown state, so that&rsquo;s what I&rsquo;ll aim for.</p>
+
+<h3 id="ansible-dynamic-inventory">Ansible Dynamic Inventory</h3>
+
+<p>This one I&rsquo;ll implement in my GCP lab, but there are <a href="https://docs.ansible.com/ansible/latest/plugins/inventory.html#plugin-list">many plugins</a> to accomplish this goal for the platform of your choice.  One session even outlined how to create your own source of truth for inventory, so there isn&rsquo;t any reason not to leverage this.</p>
+
+<p>The situation at my last gig was that we had a lot of platforms with customer workloads running on them:</p>
+
+<ul>
+<li>VMware on-prem (many private boundaries / vCenters, one per customer in most instances)</li>
+<li>GCP</li>
+<li>AWS</li>
+<li>Azure</li>
+<li>OVM on-prem (Oracle VM, yuck)</li>
+<li>bare metal</li>
+</ul>
+
+<p>You can see how VMs can be easily missed, and missed means no config management, patching, reporting, etc.</p>
+
+<h3 id="molecule-testing">Molecule Testing</h3>
+
+<p>I&rsquo;ve known about molecule for awhile, but like many (most?) shops, we never did testing on our Ansible roles.  I say &ldquo;many / most&rdquo;, because even at the conference, only ~15 percent of hands went up when asked who was actively testing their Ansible code.</p>
+
+<p>This is something I&rsquo;d like to remedy, and the session I attended gave me a good idea how it works, and how to get started.  It even gave me some ideas around lab prototyping, so I&rsquo;m excited to add this new (for me) pattern to my workflow.</p>
+
+                        </div>
                         
                         
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="https://www.chris-carmichael.dev/blog/2019/09/05/blogging-with-hugo/">
-                                          
-                                          <img src="https://www.chris-carmichael.dev/img/banners/hugo.jpg" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="https://www.chris-carmichael.dev/blog/2019/09/05/blogging-with-hugo/">Blogging With Hugo</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          
-                                          
-                                          in <a href="https://www.chris-carmichael.dev/categories/blogging">blogging</a>
-                                          
-                                          
-
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="https://www.chris-carmichael.dev/blog/2019/09/05/blogging-with-hugo/"><i class="fa fa-calendar-o"></i> September 5, 2019</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">Time to Blog I&rsquo;ve been into computers for over 30 years, since I was a teenager taking apart a Tandy 1000 EX. Yikes my mom was so mad. She threatened to take a broom to my good friend Jason and I if we didn&rsquo;t have it put back together by the morning. We succeeded, and I&rsquo;ve been addicted to technology ever since.
-Professionally, I&rsquo;ve got ~20 years of experience. I recently had an opportunity to land an evangelist job talking about kubernetes, but the hiring manager couldn&rsquo;t find me online.</p>
-                                    <p class="read-more"><a href="https://www.chris-carmichael.dev/blog/2019/09/05/blogging-with-hugo/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-chris-carmichael-dev" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -322,6 +372,7 @@ Professionally, I&rsquo;ve got ~20 years of experience. I recently had an opport
 
                 </div>
                 
+
             </div>
             
         </div>

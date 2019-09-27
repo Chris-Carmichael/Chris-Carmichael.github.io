@@ -3,27 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.chris-carmichael.dev/tags/ansible/</loc>
+    <lastmod>2019-09-27T08:43:55-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chris-carmichael.dev/categories/ansible/</loc>
+    <lastmod>2019-09-27T08:43:55-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chris-carmichael.dev/blog/2019/09/27/ansiblefest-2019-thoughts/</loc>
+    <lastmod>2019-09-27T08:43:55-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chris-carmichael.dev/blog/</loc>
+    <lastmod>2019-09-27T08:43:55-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chris-carmichael.dev/categories/</loc>
+    <lastmod>2019-09-27T08:43:55-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chris-carmichael.dev/</loc>
+    <lastmod>2019-09-27T08:43:55-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chris-carmichael.dev/tags/conference/</loc>
+    <lastmod>2019-09-27T08:43:55-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chris-carmichael.dev/tags/</loc>
+    <lastmod>2019-09-27T08:43:55-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chris-carmichael.dev/tags/thoughts/</loc>
+    <lastmod>2019-09-27T08:43:55-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.chris-carmichael.dev/categories/blogging/</loc>
     <lastmod>2019-09-05T07:28:38-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.chris-carmichael.dev/blog/2019/09/05/blogging-with-hugo/</loc>
-    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chris-carmichael.dev/blog/</loc>
-    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chris-carmichael.dev/categories/</loc>
-    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chris-carmichael.dev/</loc>
     <lastmod>2019-09-05T07:28:38-06:00</lastmod>
   </url>
   
@@ -44,11 +74,6 @@
   
   <url>
     <loc>https://www.chris-carmichael.dev/tags/markdown/</loc>
-    <lastmod>2019-09-05T07:28:38-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chris-carmichael.dev/tags/</loc>
     <lastmod>2019-09-05T07:28:38-06:00</lastmod>
   </url>
   

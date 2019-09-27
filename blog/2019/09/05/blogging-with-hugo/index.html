@@ -175,19 +175,19 @@
 
 <p>I&rsquo;ve been into computers for over 30 years, since I was a teenager taking apart a Tandy 1000 EX.  Yikes my mom was so mad.  She threatened to take a broom to my good friend Jason and I if we didn&rsquo;t have it put back together by the morning.  We succeeded, and I&rsquo;ve been addicted to technology ever since.</p>
 
-<p>Professionaly, I&rsquo;ve got ~20 years of experience.  I recently had an opportunity to land an evangelist job talking about kubernetes, but the hiring manager couldn&rsquo;t find me online.  He told the person connecting us &ldquo;Dude, I can&rsquo;t find any footprint of your friend online.  Are you sure this guy exists!?&rdquo;.  It&rsquo;s a pretty funny story, but also a missed opportunity to advocate for a technology that will be more disruptive than VMware and OS virtualization in the years to come.</p>
+<p>Professionally, I&rsquo;ve got ~20 years of experience.  I recently had an opportunity to land an evangelist job talking about kubernetes, but the hiring manager couldn&rsquo;t find me online.  He told the person connecting us &ldquo;Dude, I can&rsquo;t find any footprint of your friend online.  Are you sure this guy exists!?&rdquo;.  It&rsquo;s a pretty funny story, but also a missed opportunity to advocate for a technology that will be more disruptive than VMware and OS virtualization in the years to come.</p>
 
 <p>So, here I am, starting a blog.  Hopefully it will help folks solve problems and prevent me from avoiding future missed opportunities.  I also enjoy writing, so I&rsquo;m excited about this new start.</p>
 
 <h2 id="blogging-with-hugo">Blogging with Hugo</h2>
 
-<p>Confession time:  I&rsquo;ve attempted to blog before.  First Wordpress, then Google Sites, or whatever it was before that.  It was not a pleasent experience.  Clunky, insecure, and most importantly&hellip;no portability.  I don&rsquo;t like being locked into a specific technology, especially for something as important as documentation and sharing knowledge.  That, combined with the fact that I tend to get engrossed in projects I work on meant that internet blogging took a back seat.</p>
+<p>Confession time:  I&rsquo;ve attempted to blog before.  First Wordpress, then Google Sites, or whatever it was before that.  It was not a pleasant experience.  Clunky, insecure, and most importantly&hellip;no portability.  I don&rsquo;t like being locked into a specific technology, especially for something as important as documentation and sharing knowledge.  That, combined with the fact that I tend to get engrossed in projects I work on meant that internet blogging took a back seat.</p>
 
-<p>I was at Jenkins World a few weeks back, and I saw a neat demo where a guy from Cloudbees used a Jenkins X pipeline to publish blog posts written in Markdown, converted to a site using Hugo, and hosted it on Github Pages.  I had looked at Hugo a few years back, and it didn&rsquo;t stick.  This was when I was beginning my shift to DevOps, so Markdown felt a little clunky to me.  Today, everything I write is Markdown, so I decided to give Hugo another try and it is surprisingly easy in 2019!</p>
+<p>I was at Jenkins World a few weeks back, and I saw a neat demo where a guy from CloudBees used a Jenkins X pipeline to publish blog posts written in Markdown, converted to a site using Hugo, and hosted it on Github Pages.  I had looked at Hugo a few years back, and it didn&rsquo;t stick.  This was when I was beginning my shift to DevOps, so Markdown felt a little clunky to me.  Today, everything I write is Markdown, so I decided to give Hugo another try and it is surprisingly easy in 2019!</p>
 
 <h2 id="setup-notes">Setup Notes</h2>
 
-<p>I&rsquo;m not doing anything as fancy as a Jenkins X pipeline with Gitops approval.  Maybe I&rsquo;ll set that up and cover in a different post in the future.  Here are some handy links I used with a brief outline.</p>
+<p>I&rsquo;m not doing anything as fancy as a Jenkins X pipeline with GitOps approval.  Maybe I&rsquo;ll set that up and cover in a different post in the future.  Here are some handy links I used with a brief outline.</p>
 
 <p>This is also using Windows 10 as my work OS.  I love Linux, but my background is Windows and I find the W10 + WSL combo to meet most of my needs.  This also works well because some companies standardize and enforce Windows.  I usually have a fleet of linux servers to support, so problem solving isn&rsquo;t an issue for me.</p>
 
@@ -224,7 +224,7 @@ hugo server -D
 
 <p>Ok, now you should be able to enter <a href="http://localhost:1313">http://localhost:1313</a> on your browser of choice.  It&rsquo;s not very pretty though, is it?  Next I looked into <a href="https://themes.gohugo.io/">Hugo Themes</a>, did some research, played with a handful and settled on <a href="https://themes.gohugo.io/hugo-universal-theme/">Hugo Universal Theme</a>.</p>
 
-<p>My main requirements were Disqus comments and search, and this theme gave me a landing page to showcase the skills and tools I enjoy working with professionaly, and a handy blog link with search and comments.  All good.</p>
+<p>My main requirements were Disqus comments and search, and this theme gave me a landing page to showcase the skills and tools I enjoy working with professionally, and a handy blog link with search and comments.  All good.</p>
 
 <pre><code class="language-powershell"># add the theme
 cd ~/repos/blog/themes
@@ -372,6 +372,9 @@ Set-Alias -Name blogpreview -Value Invoke-BlogDraft
     <div class="panel-body">
         <ul class="nav nav-pills nav-stacked">
             
+            <li><a href="https://www.chris-carmichael.dev/categories/ansible">ansible (1)</a>
+            </li>
+            
             <li><a href="https://www.chris-carmichael.dev/categories/blogging">blogging (1)</a>
             </li>
             
@@ -394,6 +397,12 @@ Set-Alias -Name blogpreview -Value Invoke-BlogDraft
     <div class="panel-body">
         <ul class="tag-cloud">
             
+            <li><a href="https://www.chris-carmichael.dev/tags/ansible"><i class="fa fa-tags"></i> ansible</a>
+            </li>
+            
+            <li><a href="https://www.chris-carmichael.dev/tags/conference"><i class="fa fa-tags"></i> conference</a>
+            </li>
+            
             <li><a href="https://www.chris-carmichael.dev/tags/github"><i class="fa fa-tags"></i> github</a>
             </li>
             
@@ -404,6 +413,9 @@ Set-Alias -Name blogpreview -Value Invoke-BlogDraft
             </li>
             
             <li><a href="https://www.chris-carmichael.dev/tags/markdown"><i class="fa fa-tags"></i> markdown</a>
+            </li>
+            
+            <li><a href="https://www.chris-carmichael.dev/tags/thoughts"><i class="fa fa-tags"></i> thoughts</a>
             </li>
             
         </ul>
