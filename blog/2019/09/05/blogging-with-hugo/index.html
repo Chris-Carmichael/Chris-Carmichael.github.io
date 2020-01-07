@@ -17,7 +17,7 @@
   <meta name="description" content="My re-entry to blogging, using Hugo, Markdown and Github Pages.">
   
 
-  <meta name="generator" content="Hugo 0.57.2" />
+  <meta name="generator" content="Hugo 0.62.2" />
 
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
@@ -169,124 +169,110 @@
                         <p class="text-muted text-uppercase mb-small text-right">September 5, 2019</p>
 
                         <div id="post-content">
-                          
-
-<h1 id="time-to-blog">Time to Blog</h1>
-
-<p>I&rsquo;ve been into computers for over 30 years, since I was a teenager taking apart a Tandy 1000 EX.  Yikes my mom was so mad.  She threatened to take a broom to my good friend Jason and I if we didn&rsquo;t have it put back together by the morning.  We succeeded, and I&rsquo;ve been addicted to technology ever since.</p>
-
-<p>Professionally, I&rsquo;ve got ~20 years of experience.  I recently had an opportunity to land an evangelist job talking about kubernetes, but the hiring manager couldn&rsquo;t find me online.  He told the person connecting us &ldquo;Dude, I can&rsquo;t find any footprint of your friend online.  Are you sure this guy exists!?&rdquo;.  It&rsquo;s a pretty funny story, but also a missed opportunity to advocate for a technology that will be more disruptive than VMware and OS virtualization in the years to come.</p>
-
-<p>So, here I am, starting a blog.  Hopefully it will help folks solve problems and prevent me from avoiding future missed opportunities.  I also enjoy writing, so I&rsquo;m excited about this new start.</p>
-
+                          <h1 id="time-to-blog">Time to Blog</h1>
+<p>I've been into computers for over 30 years, since I was a teenager taking apart a Tandy 1000 EX.  Yikes my mom was so mad.  She threatened to take a broom to my good friend Jason and I if we didn't have it put back together by the morning.  We succeeded, and I've been addicted to technology ever since.</p>
+<p>Professionally, I've got ~20 years of experience.  I recently had an opportunity to land an evangelist job talking about kubernetes, but the hiring manager couldn't find me online.  He told the person connecting us &ldquo;Dude, I can't find any footprint of your friend online.  Are you sure this guy exists!?&quot;.  It's a pretty funny story, but also a missed opportunity to advocate for a technology that will be more disruptive than VMware and OS virtualization in the years to come.</p>
+<p>So, here I am, starting a blog.  Hopefully it will help folks solve problems and prevent me from avoiding future missed opportunities.  I also enjoy writing, so I'm excited about this new start.</p>
 <h2 id="blogging-with-hugo">Blogging with Hugo</h2>
-
-<p>Confession time:  I&rsquo;ve attempted to blog before.  First Wordpress, then Google Sites, or whatever it was before that.  It was not a pleasant experience.  Clunky, insecure, and most importantly&hellip;no portability.  I don&rsquo;t like being locked into a specific technology, especially for something as important as documentation and sharing knowledge.  That, combined with the fact that I tend to get engrossed in projects I work on meant that internet blogging took a back seat.</p>
-
-<p>I was at Jenkins World a few weeks back, and I saw a neat demo where a guy from CloudBees used a Jenkins X pipeline to publish blog posts written in Markdown, converted to a site using Hugo, and hosted it on Github Pages.  I had looked at Hugo a few years back, and it didn&rsquo;t stick.  This was when I was beginning my shift to DevOps, so Markdown felt a little clunky to me.  Today, everything I write is Markdown, so I decided to give Hugo another try and it is surprisingly easy in 2019!</p>
-
+<p>Confession time:  I've attempted to blog before.  First Wordpress, then Google Sites, or whatever it was before that.  It was not a pleasant experience.  Clunky, insecure, and most importantly&hellip;no portability.  I don't like being locked into a specific technology, especially for something as important as documentation and sharing knowledge.  That, combined with the fact that I tend to get engrossed in projects I work on meant that internet blogging took a back seat.</p>
+<p>I was at Jenkins World a few weeks back, and I saw a neat demo where a guy from CloudBees used a Jenkins X pipeline to publish blog posts written in Markdown, converted to a site using Hugo, and hosted it on Github Pages.  I had looked at Hugo a few years back, and it didn't stick.  This was when I was beginning my shift to DevOps, so Markdown felt a little clunky to me.  Today, everything I write is Markdown, so I decided to give Hugo another try and it is surprisingly easy in 2019!</p>
 <h2 id="setup-notes">Setup Notes</h2>
-
-<p>I&rsquo;m not doing anything as fancy as a Jenkins X pipeline with GitOps approval.  Maybe I&rsquo;ll set that up and cover in a different post in the future.  Here are some handy links I used with a brief outline.</p>
-
-<p>This is also using Windows 10 as my work OS.  I love Linux, but my background is Windows and I find the W10 + WSL combo to meet most of my needs.  This also works well because some companies standardize and enforce Windows.  I usually have a fleet of linux servers to support, so problem solving isn&rsquo;t an issue for me.</p>
-
+<p>I'm not doing anything as fancy as a Jenkins X pipeline with GitOps approval.  Maybe I'll set that up and cover in a different post in the future.  Here are some handy links I used with a brief outline.</p>
+<p>This is also using Windows 10 as my work OS.  I love Linux, but my background is Windows and I find the W10 + WSL combo to meet most of my needs.  This also works well because some companies standardize and enforce Windows.  I usually have a fleet of linux servers to support, so problem solving isn't an issue for me.</p>
 <ul>
-<li><p>Create a <strong>private</strong> Github repo named <strong>blog</strong></p></li>
-
-<li><p>Create a <strong>public</strong> repo named <strong>Chris-Carmichael.github.io</strong></p></li>
-
-<li><p>Create a custom domain <strong>chris-carmichael.dev</strong> (I use <a href="https://www.namecheap.com/">NameCheap</a>)</p></li>
-
-<li><p>Add <a href="https://help.github.com/en/articles/setting-up-an-apex-domain">Github DNS ANAME records</a> to <strong>www.chris-carmichael.dev</strong> DNS zone.</p></li>
-
-<li><p>Plug in custom URL <strong>www.chris-carmichael</strong> on the github.io repo settings.  <a href="https://github.blog/2018-05-01-github-pages-custom-domains-https/">Github partnered with LetsEncrypt in 2018</a> to automate the certificate management.  Really slick.</p></li>
+<li>
+<p>Create a <strong>private</strong> Github repo named <strong>blog</strong></p>
+</li>
+<li>
+<p>Create a <strong>public</strong> repo named <strong>Chris-Carmichael.github.io</strong></p>
+</li>
+<li>
+<p>Create a custom domain <strong>chris-carmichael.dev</strong> (I use <a href="https://www.namecheap.com/">NameCheap</a>)</p>
+</li>
+<li>
+<p>Add <a href="https://help.github.com/en/articles/setting-up-an-apex-domain">Github DNS ANAME records</a> to <strong><a href="http://www.chris-carmichael.dev">www.chris-carmichael.dev</a></strong> DNS zone.</p>
+</li>
+<li>
+<p>Plug in custom URL <strong>www.chris-carmichael</strong> on the github.io repo settings.  <a href="https://github.blog/2018-05-01-github-pages-custom-domains-https/">Github partnered with LetsEncrypt in 2018</a> to automate the certificate management.  Really slick.</p>
+</li>
 </ul>
-
 <p>Time for configuration:</p>
-
-<pre><code class="language-powershell"># install hugo
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#75715e"># install hugo</span>
 choco install hugo -y
 
-# clone the repos previously created
-git clone git@github.com:Chris-Carmichael/blog.git
-git clone git@github.com:Chris-Carmichael/Chris-Carmichael.github.io.git
+<span style="color:#75715e"># clone the repos previously created</span>
+git clone git@github.com<span style="color:#960050;background-color:#1e0010">:</span>Chris-Carmichael/blog.git
+git clone git@github.com<span style="color:#960050;background-color:#1e0010">:</span>Chris-Carmichael/Chris-Carmichael.github.io.git
 
-# create the blog site and copy the contents to the blog repo
+<span style="color:#75715e"># create the blog site and copy the contents to the blog repo</span>
 cd ~
 hugo new site blog
 cp -Recurse .\blog\* .\repos\blog\
 
-# Check to make sure an empty page is up
+<span style="color:#75715e"># Check to make sure an empty page is up</span>
 hugo server -D
 
-</code></pre>
-
-<p>Ok, now you should be able to enter <a href="http://localhost:1313">http://localhost:1313</a> on your browser of choice.  It&rsquo;s not very pretty though, is it?  Next I looked into <a href="https://themes.gohugo.io/">Hugo Themes</a>, did some research, played with a handful and settled on <a href="https://themes.gohugo.io/hugo-universal-theme/">Hugo Universal Theme</a>.</p>
-
+</code></pre></div><p>Ok, now you should be able to enter http://localhost:1313 on your browser of choice.  It's not very pretty though, is it?  Next I looked into <a href="https://themes.gohugo.io/">Hugo Themes</a>, did some research, played with a handful and settled on <a href="https://themes.gohugo.io/hugo-universal-theme/">Hugo Universal Theme</a>.</p>
 <p>My main requirements were Disqus comments and search, and this theme gave me a landing page to showcase the skills and tools I enjoy working with professionally, and a handy blog link with search and comments.  All good.</p>
-
-<pre><code class="language-powershell"># add the theme
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#75715e"># add the theme</span>
 cd ~/repos/blog/themes
-git clone https://github.com/devcows/hugo-universal-theme
+git clone https<span style="color:#960050;background-color:#1e0010">:</span>//github.com/devcows/hugo-universal-theme
 
-# remove git references, as I will customize a bit.
+<span style="color:#75715e"># remove git references, as I will customize a bit.</span>
 rm -Recurse .\.git\ -Force
 
-# create this post
+<span style="color:#75715e"># create this post</span>
 hugo new content/blog/blogging-with-hugo.md
 
-</code></pre>
-
-<h2 id="publishing-new-posts">Publishing New Posts</h2>
-
+</code></pre></div><h2 id="publishing-new-posts">Publishing New Posts</h2>
 <p>Now that a post is ready to be published, here are the next steps.</p>
-
 <ul>
-<li><p>Hugo generates the site to /blog/public</p></li>
-
-<li><p>Contents of the /blog/public directory need to be copied to the Github repo</p></li>
-
-<li><p>Commit and push the contents to Github</p></li>
+<li>
+<p>Hugo generates the site to /blog/public</p>
+</li>
+<li>
+<p>Contents of the /blog/public directory need to be copied to the Github repo</p>
+</li>
+<li>
+<p>Commit and push the contents to Github</p>
+</li>
 </ul>
-
 <p>I automate everything I can, and this is no different:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#75715e"># update blog</span>
+<span style="color:#66d9ef">function</span> Update-Blog {
 
-<pre><code class="language-powershell"># update blog
-function Update-Blog {
-
-    param (
-        [Parameter(Mandatory=$true)]
+    <span style="color:#66d9ef">param</span> (
+        [<span style="color:#66d9ef">Parameter</span>(<span style="color:#66d9ef">Mandatory</span>=$true)]
         $comment
     )
 
-    # save location, go to blog dir
+    <span style="color:#75715e"># save location, go to blog dir</span>
     Push-Location
     cd ~/repos/blogging/blog
 
-    # clear public folder, generate &amp; update blog
-    rm -Recurse C:\Users\carmi\repos\blogging\blog\public\ -Force
+    <span style="color:#75715e"># clear public folder, generate &amp; update blog</span>
+    rm -Recurse C<span style="color:#960050;background-color:#1e0010">:</span>\Users\carmi\repos\blogging\blog\public\ -Force
     hugo
     cp -Recurse .\public\* ..\Chris-Carmichael.github.io\ -Force
-    cd C:\Users\carmi\repos\blogging\Chris-Carmichael.github.io
+    cd C<span style="color:#960050;background-color:#1e0010">:</span>\Users\carmi\repos\blogging\Chris-Carmichael.github.io
     git add .
     git commit -m $comment
     git push
 
-    # reminder in case you don't see the posting on the interwebz
-    Write-Output &quot;Don't forget to set draft: false on your post&quot;
+    <span style="color:#75715e"># reminder in case you don&#39;t see the posting on the interwebz</span>
+    Write-Output <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Don&#39;t forget to set draft: false on your post</span><span style="color:#e6db74">&#34;</span>
 
-    # go back to where you started
+    <span style="color:#75715e"># go back to where you started</span>
     Pop-Location
 
 }
 
 Set-Alias -Name blogupdate -Value Update-Blog
 
-# preview blog
-function Invoke-BlogDraft {
+<span style="color:#75715e"># preview blog</span>
+<span style="color:#66d9ef">function</span> Invoke-BlogDraft {
 
-    # go to blogdir &amp; preview
+    <span style="color:#75715e"># go to blogdir &amp; preview</span>
     cd ~/repos/blogging/blog
     hugo server -D
 
@@ -294,9 +280,7 @@ function Invoke-BlogDraft {
 
 Set-Alias -Name blogpreview -Value Invoke-BlogDraft
 
-</code></pre>
-
-<p>Drop that in <strong>$profile</strong> and simply run <code>blogpreview</code> to take a look before you publish, then <code>blogupdate</code> to push the repo.  Easy peasy.</p>
+</code></pre></div><p>Drop that in <strong>$profile</strong> and simply run <code>blogpreview</code> to take a look before you publish, then <code>blogupdate</code> to push the repo.  Easy peasy.</p>
 
                         </div>
                         
