@@ -6,7 +6,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>hugo</title>
+  <title>2020 Python3 and Ansible</title>
   <meta name="author" content="" />
 
   
@@ -14,7 +14,7 @@
   
 
   
-  <meta name="description" content="My little corner of the IT world.">	
+  <meta name="description" content="Python3 EOL">
   
 
   <meta name="generator" content="Hugo 0.62.2" />
@@ -58,14 +58,14 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@">
-  <meta name="twitter:title" content="hugo">
-  <meta name="twitter:image" content="https://www.chris-carmichael.dev/">
-  <meta name="twitter:description" content="My little corner of the IT world.">
+  <meta name="twitter:title" content="2020 Python3 and Ansible">
+  <meta name="twitter:image" content="https://www.chris-carmichael.dev/img/banners/Python_EOL.png">
+  <meta name="twitter:description" content="Python3 EOL">
 
   
-  <meta property="og:title" content="hugo" />
+  <meta property="og:title" content="2020 Python3 and Ansible" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.chris-carmichael.dev/tags/hugo//" />
+  <meta property="og:url" content="https://www.chris-carmichael.dev/blog/2020/01/11/2020-python3-ansible//" />
   <meta property="og:image" content="img/logo.png" />
 
 </head>
@@ -84,9 +84,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="https://www.chris-carmichael.dev/">
-                    <img src="https://www.chris-carmichael.dev/img/logo.png" alt="hugo logo" class="hidden-xs hidden-sm">
-                    <img src="https://www.chris-carmichael.dev/img/logo-small.png" alt="hugo logo" class="visible-xs visible-sm">
-                    <span class="sr-only">hugo - go to homepage</span>
+                    <img src="https://www.chris-carmichael.dev/img/logo.png" alt="2020 Python3 and Ansible logo" class="hidden-xs hidden-sm">
+                    <img src="https://www.chris-carmichael.dev/img/logo-small.png" alt="2020 Python3 and Ansible logo" class="visible-xs visible-sm">
+                    <span class="sr-only">2020 Python3 and Ansible - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -150,7 +150,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>hugo</h1>
+                <h1>2020 Python3 and Ansible</h1>
             </div>
         </div>
     </div>
@@ -159,58 +159,91 @@
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        <p class="text-muted text-uppercase mb-small text-right">January 11, 2020</p>
+
+                        <div id="post-content">
+                          <h1 id="2020-python-3---leave-the-past-behind">2020 Python 3 - Leave the Past Behind</h1>
+<p>It's 2020, and <a href="https://twitter.com/gvanrossum/status/1133496146700058626?lang=en">Guido warned us long ago</a> that Python 2 was being deprecated.  The biggest issue is no more security updates for Python 2.  Security is important, don't ya think?</p>
+<p>Time to make some upgrades and mods.</p>
+<h2 id="install-python-3">Install Python 3</h2>
+<p>I already had this installed, but finding instructions is easy to do.  This <a href="https://vitux.com/install-python3-on-ubuntu-and-set-up-a-virtual-programming-environment/">write-up from vitux.com</a> looks pretty good.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># install the bits</span>
+sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt install python3 -y
+
+</code></pre></div><h2 id="python-alternatives---default-to-python-3-in-bash">Python Alternatives - Default to Python 3 in Bash</h2>
+<p>You'll want to change the default behavior of your machine to use Python 3.  This will be effective across all profiles.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">update-alternatives --install /usr/bin/python python /usr/bin/python3 10
+
+</code></pre></div><h2 id="update-ansible-to-default-to-python-3">Update Ansible to default to Python 3</h2>
+<p>I'm an Ansible guy, and Ansible uses Python, so let's check that out.  If you look at the Ansible version, you'll notice it defaulting to <code>python-version = 2.7.17</code> on my machine.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ansible --version
+ansible 2.9.2
+  config file <span style="color:#f92672">=</span> /home/ansible/lab-ansible/ansible.cfg
+  configured module search path <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>u<span style="color:#e6db74">&#39;/opt/modules&#39;</span><span style="color:#f92672">]</span>
+  ansible python module location <span style="color:#f92672">=</span> /usr/lib/python2.7/dist-packages/ansible
+  executable location <span style="color:#f92672">=</span> /usr/bin/ansible
+  python version <span style="color:#f92672">=</span> 2.7.17 <span style="color:#f92672">(</span>default, Nov  <span style="color:#ae81ff">7</span> 2019, 10:07:09<span style="color:#f92672">)</span> <span style="color:#f92672">[</span>GCC 7.4.0<span style="color:#f92672">]</span>
+</code></pre></div><p>Let's change that.  Per <a href="https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html">Ansible Docs</a>, we are just gonna install Ansible via pip3.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Install ansible</span>
+sudo pip3 install ansible
+
+<span style="color:#75715e"># check the version</span>
+ansible --version
+ansible 2.9.2
+  config file <span style="color:#f92672">=</span> /etc/ansible/ansible.cfg
+  configured module search path <span style="color:#f92672">=</span> <span style="color:#f92672">[</span><span style="color:#e6db74">&#39;/home/chris/.ansible/plugins/modules&#39;</span>, <span style="color:#e6db74">&#39;/usr/share/ansible/plugins/modules&#39;</span><span style="color:#f92672">]</span>
+  ansible python module location <span style="color:#f92672">=</span> /usr/local/lib/python3.6/dist-packages/ansible
+  executable location <span style="color:#f92672">=</span> /usr/local/bin/ansible
+  python version <span style="color:#f92672">=</span> 3.6.9 <span style="color:#f92672">(</span>default, Nov  <span style="color:#ae81ff">7</span> 2019, 10:44:02<span style="color:#f92672">)</span> <span style="color:#f92672">[</span>GCC 8.3.0<span style="color:#f92672">]</span>
+
+</code></pre></div><p>Yay.</p>
+<h2 id="download-your-modules">Download your Modules</h2>
+<p>Let's check Ansible related Python modules next.  For instance, I use the <a href="https://docs.ansible.com/ansible/latest/scenario_guides/guide_gce.html">GCP Ansible modules</a> quite a bit, so I need to install the Python v3 versions of the required modules.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># verify pip is also pointing to v3</span>
+pip --version
+pip 9.0.1 from /usr/lib/python3/dist-packages <span style="color:#f92672">(</span>python 3.6<span style="color:#f92672">)</span>
+
+<span style="color:#75715e"># install Google Ansible required modules</span>
+sudo apt install python-requests
+sudo pip install google-auth
+
+</code></pre></div><h2 id="winning">Winning</h2>
+<p>That's about it.  Just keep this change in mind as you do Python things and you won't have to worry about this until Python 4 cuts over in 10+ years.  :-)</p>
+
+                        </div>
                         
                         
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="https://www.chris-carmichael.dev/blog/2019/09/05/blogging-with-hugo/">
-                                          
-                                          <img src="https://www.chris-carmichael.dev/img/banners/hugo.jpg" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="https://www.chris-carmichael.dev/blog/2019/09/05/blogging-with-hugo/">Blogging With Hugo</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          
-                                          
-                                          in <a href="https://www.chris-carmichael.dev/categories/blogging">blogging</a>
-                                          
-                                          
-
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="https://www.chris-carmichael.dev/blog/2019/09/05/blogging-with-hugo/"><i class="fa fa-calendar-o"></i> September 5, 2019</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">Time to Blog I've been into computers for over 30 years, since I was a teenager taking apart a Tandy 1000 EX. Yikes my mom was so mad. She threatened to take a broom to my good friend Jason and I if we didn't have it put back together by the morning. We succeeded, and I've been addicted to technology ever since.
-Professionally, I've got ~20 years of experience. I recently had an opportunity to land an evangelist job talking about kubernetes, but the hiring manager couldn't find me online.</p>
-                                    <p class="read-more"><a href="https://www.chris-carmichael.dev/blog/2019/09/05/blogging-with-hugo/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-chris-carmichael-dev" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -331,6 +364,7 @@ Professionally, I've got ~20 years of experience. I recently had an opportunity 
 
                 </div>
                 
+
             </div>
             
         </div>

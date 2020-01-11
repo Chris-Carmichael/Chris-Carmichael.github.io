@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ansible on Chris Carmichael</title>
-    <link>https://www.chris-carmichael.dev/tags/ansible/</link>
-    <description>Recent content in ansible on Chris Carmichael</description>
+    <title>python3 on Chris Carmichael</title>
+    <link>https://www.chris-carmichael.dev/tags/python3/</link>
+    <description>Recent content in python3 on Chris Carmichael</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Jan 2020 04:27:56 -0700</lastBuildDate>
     
-	<atom:link href="https://www.chris-carmichael.dev/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.chris-carmichael.dev/tags/python3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,16 +21,6 @@
 Time to make some upgrades and mods.
 Install Python 3 I already had this installed, but finding instructions is easy to do. This write-up from vitux.com looks pretty good.
 # install the bitssudo apt update &amp;amp;&amp;amp; sudo apt install python3 -yPython Alternatives - Default to Python 3 in Bash You&#39;ll want to change the default behavior of your machine to use Python 3.</description>
-    </item>
-    
-    <item>
-      <title>AnsibleFest 2019 Thoughts</title>
-      <link>https://www.chris-carmichael.dev/blog/2019/09/27/ansiblefest-2019-thoughts/</link>
-      <pubDate>Fri, 27 Sep 2019 08:43:55 -0600</pubDate>
-      
-      <guid>https://www.chris-carmichael.dev/blog/2019/09/27/ansiblefest-2019-thoughts/</guid>
-      <description>AnsibleFest 2019 Thoughts I attended the Ansible conference again this year, and it didn&#39;t disappoint. Almost every session I sat in showcased deep technical content presented by seasoned engineers. Many of them are folks in the field without any corporate sponsorship or agenda. Just techies solving difficult problems using modern automation tooling, which is exactly what I look for in a conference.
-Here are the most interesting topics I took from the conference.</description>
     </item>
     
   </channel>

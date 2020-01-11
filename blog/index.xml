@@ -6,10 +6,22 @@
     <description>Recent content in Blogs on Chris Carmichael</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Sep 2019 08:43:55 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 04:27:56 -0700</lastBuildDate>
     
 	<atom:link href="https://www.chris-carmichael.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020 Python3 and Ansible</title>
+      <link>https://www.chris-carmichael.dev/blog/2020/01/11/2020-python3-ansible/</link>
+      <pubDate>Sat, 11 Jan 2020 04:27:56 -0700</pubDate>
+      
+      <guid>https://www.chris-carmichael.dev/blog/2020/01/11/2020-python3-ansible/</guid>
+      <description>2020 Python 3 - Leave the Past Behind It&#39;s 2020, and Guido warned us long ago that Python 2 was being deprecated. The biggest issue is no more security updates for Python 2. Security is important, don&#39;t ya think?
+Time to make some upgrades and mods.
+Install Python 3 I already had this installed, but finding instructions is easy to do. This write-up from vitux.com looks pretty good.
+# install the bitssudo apt update &amp;amp;&amp;amp; sudo apt install python3 -yPython Alternatives - Default to Python 3 in Bash You&#39;ll want to change the default behavior of your machine to use Python 3.</description>
+    </item>
     
     <item>
       <title>AnsibleFest 2019 Thoughts</title>

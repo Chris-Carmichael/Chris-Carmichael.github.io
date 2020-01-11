@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Chris Carmichael</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Sep 2019 08:43:55 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 04:27:56 -0700</lastBuildDate>
     
 	<atom:link href="https://www.chris-carmichael.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>ansible</title>
       <link>https://www.chris-carmichael.dev/tags/ansible/</link>
-      <pubDate>Fri, 27 Sep 2019 08:43:55 -0600</pubDate>
+      <pubDate>Sat, 11 Jan 2020 04:27:56 -0700</pubDate>
       
       <guid>https://www.chris-carmichael.dev/tags/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gcp</title>
+      <link>https://www.chris-carmichael.dev/tags/gcp/</link>
+      <pubDate>Sat, 11 Jan 2020 04:27:56 -0700</pubDate>
+      
+      <guid>https://www.chris-carmichael.dev/tags/gcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python3</title>
+      <link>https://www.chris-carmichael.dev/tags/python3/</link>
+      <pubDate>Sat, 11 Jan 2020 04:27:56 -0700</pubDate>
+      
+      <guid>https://www.chris-carmichael.dev/tags/python3/</guid>
       <description></description>
     </item>
     
