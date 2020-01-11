@@ -169,19 +169,19 @@
                         <p class="text-muted text-uppercase mb-small text-right">January 11, 2020</p>
 
                         <div id="post-content">
-                          <h1 id="2020-python-3---leave-the-past-behind">2020 Python 3 - Leave the Past Behind</h1>
+                          <h2 id="2020-python-3---leave-the-past-behind">2020 Python 3 - Leave the Past Behind</h2>
 <p>It's 2020, and <a href="https://twitter.com/gvanrossum/status/1133496146700058626?lang=en">Guido warned us long ago</a> that Python 2 was being deprecated.  The biggest issue is no more security updates for Python 2.  Security is important, don't ya think?</p>
 <p>Time to make some upgrades and mods.</p>
-<h2 id="install-python-3">Install Python 3</h2>
+<h3 id="install-python-3">Install Python 3</h3>
 <p>I already had this installed, but finding instructions is easy to do.  This <a href="https://vitux.com/install-python3-on-ubuntu-and-set-up-a-virtual-programming-environment/">write-up from vitux.com</a> looks pretty good.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># install the bits</span>
 sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt install python3 -y
 
-</code></pre></div><h2 id="python-alternatives---default-to-python-3-in-bash">Python Alternatives - Default to Python 3 in Bash</h2>
+</code></pre></div><h3 id="python-alternatives---default-to-python-3-in-bash">Python Alternatives - Default to Python 3 in Bash</h3>
 <p>You'll want to change the default behavior of your machine to use Python 3.  This will be effective across all profiles.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">update-alternatives --install /usr/bin/python python /usr/bin/python3 10
 
-</code></pre></div><h2 id="update-ansible-to-default-to-python-3">Update Ansible to default to Python 3</h2>
+</code></pre></div><h3 id="update-ansible-to-default-to-python-3">Update Ansible to default to Python 3</h3>
 <p>I'm an Ansible guy, and Ansible uses Python, so let's check that out.  If you look at the Ansible version, you'll notice it defaulting to <code>python-version = 2.7.17</code> on my machine.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ansible --version
 ansible 2.9.2
@@ -204,7 +204,7 @@ ansible 2.9.2
   python version <span style="color:#f92672">=</span> 3.6.9 <span style="color:#f92672">(</span>default, Nov  <span style="color:#ae81ff">7</span> 2019, 10:44:02<span style="color:#f92672">)</span> <span style="color:#f92672">[</span>GCC 8.3.0<span style="color:#f92672">]</span>
 
 </code></pre></div><p>Yay.</p>
-<h2 id="download-your-modules">Download your Modules</h2>
+<h3 id="download-your-modules">Download your Modules</h3>
 <p>Let's check Ansible related Python modules next.  For instance, I use the <a href="https://docs.ansible.com/ansible/latest/scenario_guides/guide_gce.html">GCP Ansible modules</a> quite a bit, so I need to install the Python v3 versions of the required modules.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># verify pip is also pointing to v3</span>
 pip --version
@@ -212,9 +212,9 @@ pip 9.0.1 from /usr/lib/python3/dist-packages <span style="color:#f92672">(</spa
 
 <span style="color:#75715e"># install Google Ansible required modules</span>
 sudo apt install python-requests
-sudo pip install google-auth
+sudo pip install google-auth requests
 
-</code></pre></div><h2 id="winning">Winning</h2>
+</code></pre></div><h3 id="winning">Winning</h3>
 <p>That's about it.  Just keep this change in mind as you do Python things and you won't have to worry about this until Python 4 cuts over in 10+ years.  :-)</p>
 
                         </div>
